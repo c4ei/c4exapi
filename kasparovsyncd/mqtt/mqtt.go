@@ -3,8 +3,8 @@ package mqtt
 import (
 	"encoding/json"
 
+	"github.com/c4ei/c4exapi/kasparovsyncd/config"
 	mqtt "github.com/eclipse/paho.mqtt.golang"
-	"github.com/kaspanet/kasparov/kasparovsyncd/config"
 	"github.com/pkg/errors"
 )
 

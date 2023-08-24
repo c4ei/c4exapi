@@ -2,17 +2,18 @@ package sync
 
 import (
 	"encoding/hex"
-	"github.com/kaspanet/kaspad/domainmessage"
-	"github.com/kaspanet/kasparov/database"
-	"github.com/kaspanet/kasparov/serializer"
 
-	"github.com/kaspanet/kaspad/blockdag"
-	rpcmodel "github.com/kaspanet/kaspad/rpc/model"
-	"github.com/kaspanet/kaspad/util"
-	"github.com/kaspanet/kaspad/util/daghash"
-	"github.com/kaspanet/kaspad/util/subnetworkid"
-	"github.com/kaspanet/kasparov/dbaccess"
-	"github.com/kaspanet/kasparov/dbmodels"
+	"github.com/c4ei/c4exapi/database"
+	"github.com/c4ei/c4exapi/serializer"
+	"github.com/c4ei/c4exd/domainmessage"
+
+	"github.com/c4ei/c4exapi/dbaccess"
+	"github.com/c4ei/c4exapi/dbmodels"
+	"github.com/c4ei/c4exd/blockdag"
+	rpcmodel "github.com/c4ei/c4exd/rpc/model"
+	"github.com/c4ei/c4exd/util"
+	"github.com/c4ei/c4exd/util/daghash"
+	"github.com/c4ei/c4exd/util/subnetworkid"
 
 	"github.com/pkg/errors"
 )

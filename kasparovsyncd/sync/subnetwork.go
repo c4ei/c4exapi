@@ -1,10 +1,10 @@
 package sync
 
 import (
-	"github.com/kaspanet/kasparov/database"
-	"github.com/kaspanet/kasparov/dbaccess"
-	"github.com/kaspanet/kasparov/dbmodels"
-	"github.com/kaspanet/kasparov/jsonrpc"
+	"github.com/c4ei/c4exapi/database"
+	"github.com/c4ei/c4exapi/dbaccess"
+	"github.com/c4ei/c4exapi/dbmodels"
+	"github.com/c4ei/c4exapi/jsonrpc"
 
 	"github.com/pkg/errors"
 )

@@ -84,7 +84,7 @@ Join our discord server using the following link: https://discord.gg/WmGhhzk
 
 ## Issue Tracker
 
-The [integrated github issue tracker](https://github.com/kaspanet/kasparov/issues)
+The [integrated github issue tracker](https://github.com/c4ei/c4exapi/issues)
 is used for this project.
 
 ## License

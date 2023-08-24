@@ -1,14 +1,15 @@
 package sync
 
 import (
-	"github.com/kaspanet/kasparov/database"
-	"github.com/kaspanet/kasparov/serializer"
 	"strconv"
 	"time"
 
-	rpcmodel "github.com/kaspanet/kaspad/rpc/model"
-	"github.com/kaspanet/kasparov/dbaccess"
-	"github.com/kaspanet/kasparov/dbmodels"
+	"github.com/c4ei/c4exapi/database"
+	"github.com/c4ei/c4exapi/serializer"
+
+	"github.com/c4ei/c4exapi/dbaccess"
+	"github.com/c4ei/c4exapi/dbmodels"
+	rpcmodel "github.com/c4ei/c4exd/rpc/model"
 	"github.com/pkg/errors"
 )
 

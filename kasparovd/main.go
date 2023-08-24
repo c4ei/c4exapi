@@ -4,19 +4,19 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/kaspanet/kaspad/util/profiling"
+	"github.com/c4ei/c4exd/util/profiling"
 
 	"github.com/pkg/errors"
 
+	"github.com/c4ei/c4exapi/database"
+	"github.com/c4ei/c4exapi/jsonrpc"
+	"github.com/c4ei/c4exapi/kasparovd/config"
+	"github.com/c4ei/c4exapi/kasparovd/server"
+	"github.com/c4ei/c4exapi/version"
+	"github.com/c4ei/c4exd/signal"
+	"github.com/c4ei/c4exd/util/panics"
 	_ "github.com/golang-migrate/migrate/v4/database/postgres"
 	_ "github.com/golang-migrate/migrate/v4/source/file"
-	"github.com/kaspanet/kaspad/signal"
-	"github.com/kaspanet/kaspad/util/panics"
-	"github.com/kaspanet/kasparov/database"
-	"github.com/kaspanet/kasparov/jsonrpc"
-	"github.com/kaspanet/kasparov/kasparovd/config"
-	"github.com/kaspanet/kasparov/kasparovd/server"
-	"github.com/kaspanet/kasparov/version"
 )
 
 func main() {

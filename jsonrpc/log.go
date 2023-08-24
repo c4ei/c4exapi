@@ -1,9 +1,9 @@
 package jsonrpc
 
 import (
-	"github.com/kaspanet/kaspad/logs"
-	rpcclient "github.com/kaspanet/kaspad/rpc/client"
-	"github.com/kaspanet/kasparov/logger"
+	"github.com/c4ei/c4exapi/logger"
+	"github.com/c4ei/c4exd/logs"
+	rpcclient "github.com/c4ei/c4exd/rpc/client"
 )
 
 func init() {

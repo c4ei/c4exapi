@@ -2,14 +2,15 @@ package apimodels
 
 import (
 	"encoding/hex"
-	"github.com/kaspanet/kaspad/dagconfig"
-	"github.com/kaspanet/kaspad/util/pointers"
-	"github.com/kaspanet/kaspad/util/subnetworkid"
-	"github.com/pkg/errors"
 	"sort"
 
-	"github.com/kaspanet/kasparov/dbmodels"
-	"github.com/kaspanet/kasparov/serializer"
+	"github.com/c4ei/c4exd/dagconfig"
+	"github.com/c4ei/c4exd/util/pointers"
+	"github.com/c4ei/c4exd/util/subnetworkid"
+	"github.com/pkg/errors"
+
+	"github.com/c4ei/c4exapi/dbmodels"
+	"github.com/c4ei/c4exapi/serializer"
 )
 
 func confirmations(acceptingBlockBlueScore *uint64, selectedTipBlueScore uint64) uint64 {

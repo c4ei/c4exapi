@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/kaspanet/kasparov/logger"
+	"github.com/c4ei/c4exapi/logger"
 )
 
 var (

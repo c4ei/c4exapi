@@ -3,15 +3,16 @@ package sync
 import (
 	"bytes"
 	"encoding/hex"
-	"github.com/kaspanet/kasparov/database"
 
-	"github.com/kaspanet/kasparov/dbaccess"
-	"github.com/kaspanet/kasparov/dbmodels"
-	"github.com/kaspanet/kasparov/jsonrpc"
-	"github.com/kaspanet/kasparov/kasparovsyncd/mqtt"
+	"github.com/c4ei/c4exapi/database"
 
-	rpcmodel "github.com/kaspanet/kaspad/rpc/model"
-	"github.com/kaspanet/kaspad/util/daghash"
+	"github.com/c4ei/c4exapi/dbaccess"
+	"github.com/c4ei/c4exapi/dbmodels"
+	"github.com/c4ei/c4exapi/jsonrpc"
+	"github.com/c4ei/c4exapi/kasparovsyncd/mqtt"
+
+	rpcmodel "github.com/c4ei/c4exd/rpc/model"
+	"github.com/c4ei/c4exd/util/daghash"
 	"github.com/pkg/errors"
 )
 

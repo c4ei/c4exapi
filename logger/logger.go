@@ -2,9 +2,10 @@ package logger
 
 import (
 	"fmt"
-	"github.com/kaspanet/kaspad/logs"
-	"github.com/pkg/errors"
 	"os"
+
+	"github.com/c4ei/c4exd/logs"
+	"github.com/pkg/errors"
 )
 
 // BackendLog is the logging backend used to create all subsystem loggers.

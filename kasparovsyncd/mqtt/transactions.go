@@ -1,13 +1,14 @@
 package mqtt
 
 import (
-	"github.com/kaspanet/kasparov/database"
 	"path"
 
-	rpcmodel "github.com/kaspanet/kaspad/rpc/model"
-	"github.com/kaspanet/kasparov/apimodels"
-	"github.com/kaspanet/kasparov/dbaccess"
-	"github.com/kaspanet/kasparov/dbmodels"
+	"github.com/c4ei/c4exapi/database"
+
+	"github.com/c4ei/c4exapi/apimodels"
+	"github.com/c4ei/c4exapi/dbaccess"
+	"github.com/c4ei/c4exapi/dbmodels"
+	rpcmodel "github.com/c4ei/c4exd/rpc/model"
 )
 
 const (

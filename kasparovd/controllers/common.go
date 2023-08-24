@@ -3,9 +3,9 @@ package controllers
 import (
 	"net/http"
 
-	"github.com/kaspanet/kaspad/util"
-	"github.com/kaspanet/kasparov/httpserverutils"
-	"github.com/kaspanet/kasparov/kasparovd/config"
+	"github.com/c4ei/c4exapi/httpserverutils"
+	"github.com/c4ei/c4exapi/kasparovd/config"
+	"github.com/c4ei/c4exd/util"
 	"github.com/pkg/errors"
 )
 

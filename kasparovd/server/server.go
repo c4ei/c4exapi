@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"time"
 
+	"github.com/c4ei/c4exapi/httpserverutils"
 	"github.com/gorilla/handlers"
 	"github.com/gorilla/mux"
-	"github.com/kaspanet/kasparov/httpserverutils"
 )
 
 const gracefulShutdownTimeout = 30 * time.Second

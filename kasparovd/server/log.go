@@ -1,8 +1,8 @@
 package server
 
 import (
-	"github.com/kaspanet/kaspad/util/panics"
-	"github.com/kaspanet/kasparov/logger"
+	"github.com/c4ei/c4exapi/logger"
+	"github.com/c4ei/c4exd/util/panics"
 )
 
 var (

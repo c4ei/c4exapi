@@ -42,8 +42,8 @@ WORKDIR /app
 
 RUN apk add --no-cache tini
 
-COPY --from=build /go/src/github.com/kaspanet/kasparov/kasparovsyncd/ /app/
-COPY --from=build /go/src/github.com/kaspanet/kasparov/database/migrations/ /database/migrations/
+COPY --from=build /go/src/github.com/c4ei/c4exapi/kasparovsyncd/ /app/
+COPY --from=build /go/src/github.com/c4ei/c4exapi/database/migrations/ /database/migrations/
 
 ENTRYPOINT ["/sbin/tini", "--"]
 CMD ["/app/kasparov-syncd"]

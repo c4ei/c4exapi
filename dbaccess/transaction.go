@@ -3,10 +3,10 @@ package dbaccess
 import (
 	"fmt"
 
+	"github.com/c4ei/c4exapi/database"
+	"github.com/c4ei/c4exapi/dbmodels"
 	"github.com/go-pg/pg/v9"
 	"github.com/go-pg/pg/v9/orm"
-	"github.com/kaspanet/kasparov/database"
-	"github.com/kaspanet/kasparov/dbmodels"
 )
 
 // TransactionByID retrieves a transaction from the database that has the provided ID

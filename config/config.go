@@ -4,9 +4,9 @@ import (
 	"path/filepath"
 	"strconv"
 
+	"github.com/c4ei/c4exapi/logger"
+	"github.com/c4ei/c4exd/config"
 	"github.com/jessevdk/go-flags"
-	"github.com/kaspanet/kaspad/config"
-	"github.com/kaspanet/kasparov/logger"
 	"github.com/pkg/errors"
 )
 

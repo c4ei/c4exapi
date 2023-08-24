@@ -1,17 +1,18 @@
 package jsonrpc
 
 import (
-	"github.com/kaspanet/kaspad/domainmessage"
 	"io/ioutil"
 	"time"
 
-	"github.com/kaspanet/kasparov/config"
+	"github.com/c4ei/c4exd/domainmessage"
+
+	"github.com/c4ei/c4exapi/config"
 	"github.com/pkg/errors"
 
-	"github.com/kaspanet/kaspad/util/daghash"
+	"github.com/c4ei/c4exd/util/daghash"
 
-	rpcclient "github.com/kaspanet/kaspad/rpc/client"
-	"github.com/kaspanet/kaspad/util"
+	rpcclient "github.com/c4ei/c4exd/rpc/client"
+	"github.com/c4ei/c4exd/util"
 )
 
 // Client represents a connection to the JSON-RPC API of a full node

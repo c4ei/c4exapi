@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/kaspanet/kaspad/util"
+	"github.com/c4ei/c4exd/util"
 )
 
 func balance(conf *balanceConfig) error {

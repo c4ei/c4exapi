@@ -4,18 +4,18 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/kaspanet/kaspad/util/profiling"
-	"github.com/kaspanet/kasparov/kasparovsyncd/sync"
+	"github.com/c4ei/c4exapi/kasparovsyncd/sync"
+	"github.com/c4ei/c4exd/util/profiling"
 
+	"github.com/c4ei/c4exapi/database"
+	"github.com/c4ei/c4exapi/jsonrpc"
+	"github.com/c4ei/c4exapi/kasparovsyncd/config"
+	"github.com/c4ei/c4exapi/kasparovsyncd/mqtt"
+	"github.com/c4ei/c4exapi/version"
+	"github.com/c4ei/c4exd/signal"
+	"github.com/c4ei/c4exd/util/panics"
 	_ "github.com/golang-migrate/migrate/v4/database/postgres"
 	_ "github.com/golang-migrate/migrate/v4/source/file"
-	"github.com/kaspanet/kaspad/signal"
-	"github.com/kaspanet/kaspad/util/panics"
-	"github.com/kaspanet/kasparov/database"
-	"github.com/kaspanet/kasparov/jsonrpc"
-	"github.com/kaspanet/kasparov/kasparovsyncd/config"
-	"github.com/kaspanet/kasparov/kasparovsyncd/mqtt"
-	"github.com/kaspanet/kasparov/version"
 	"github.com/pkg/errors"
 )
 

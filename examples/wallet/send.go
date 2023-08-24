@@ -5,14 +5,15 @@ import (
 	"encoding/hex"
 	"encoding/json"
 	"fmt"
-	"github.com/kaspanet/kaspad/domainmessage"
 	"net/http"
 
+	"github.com/c4ei/c4exd/domainmessage"
+
+	"github.com/c4ei/c4exapi/apimodels"
+	"github.com/c4ei/c4exd/txscript"
+	"github.com/c4ei/c4exd/util"
+	"github.com/c4ei/c4exd/util/daghash"
 	"github.com/kaspanet/go-secp256k1"
-	"github.com/kaspanet/kaspad/txscript"
-	"github.com/kaspanet/kaspad/util"
-	"github.com/kaspanet/kaspad/util/daghash"
-	"github.com/kaspanet/kasparov/apimodels"
 	"github.com/pkg/errors"
 )
 

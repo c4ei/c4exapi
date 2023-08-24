@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 
+	"github.com/c4ei/c4exd/dagconfig"
+	"github.com/c4ei/c4exd/util"
 	"github.com/kaspanet/go-secp256k1"
-	"github.com/kaspanet/kaspad/dagconfig"
-	"github.com/kaspanet/kaspad/util"
 	"github.com/pkg/errors"
 )
 

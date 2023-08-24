@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/kaspanet/kasparov/dbaccess"
-	"github.com/kaspanet/kasparov/httpserverutils"
-	"github.com/kaspanet/kasparov/kasparovd/controllers"
+	"github.com/c4ei/c4exapi/dbaccess"
+	"github.com/c4ei/c4exapi/httpserverutils"
+	"github.com/c4ei/c4exapi/kasparovd/controllers"
 	"github.com/pkg/errors"
 
 	"github.com/gorilla/mux"

@@ -2,10 +2,11 @@ package dbaccess
 
 import (
 	"fmt"
-	"github.com/go-pg/pg/v9"
-	"github.com/kaspanet/kasparov/database"
 
-	"github.com/kaspanet/kasparov/dbmodels"
+	"github.com/c4ei/c4exapi/database"
+	"github.com/go-pg/pg/v9"
+
+	"github.com/c4ei/c4exapi/dbmodels"
 )
 
 // BlockByHash retrieves a block from the database according to its hash

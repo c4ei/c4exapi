@@ -6,10 +6,10 @@ import (
 	"path/filepath"
 	"strings"
 
+	"github.com/c4ei/c4exapi/config"
+	"github.com/c4ei/c4exapi/version"
+	"github.com/c4ei/c4exd/util"
 	"github.com/jessevdk/go-flags"
-	"github.com/kaspanet/kaspad/util"
-	"github.com/kaspanet/kasparov/config"
-	"github.com/kaspanet/kasparov/version"
 	"github.com/pkg/errors"
 )
 

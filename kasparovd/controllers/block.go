@@ -2,17 +2,18 @@ package controllers
 
 import (
 	"encoding/hex"
-	"github.com/kaspanet/kasparov/database"
 	"net/http"
 
-	"github.com/kaspanet/kasparov/apimodels"
-	"github.com/kaspanet/kasparov/dbaccess"
-	"github.com/kaspanet/kasparov/dbmodels"
+	"github.com/c4ei/c4exapi/database"
+
+	"github.com/c4ei/c4exapi/apimodels"
+	"github.com/c4ei/c4exapi/dbaccess"
+	"github.com/c4ei/c4exapi/dbmodels"
 
 	"github.com/pkg/errors"
 
-	"github.com/kaspanet/kaspad/util/daghash"
-	"github.com/kaspanet/kasparov/httpserverutils"
+	"github.com/c4ei/c4exapi/httpserverutils"
+	"github.com/c4ei/c4exd/util/daghash"
 )
 
 const maxGetBlocksLimit = 100

@@ -1,8 +1,8 @@
 package mqtt
 
 import (
-	rpcmodel "github.com/kaspanet/kaspad/rpc/model"
-	"github.com/kaspanet/kasparov/apimodels"
+	"github.com/c4ei/c4exapi/apimodels"
+	rpcmodel "github.com/c4ei/c4exd/rpc/model"
 )
 
 // SelectedParentChainTopic is an MQTT topic for changes in the

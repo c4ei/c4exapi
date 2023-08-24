@@ -1,6 +1,6 @@
 package controllers
 
-import "github.com/kaspanet/kasparov/apimodels"
+import "github.com/c4ei/c4exapi/apimodels"
 
 // GetFeeEstimatesHandler returns the fee estimates for different priorities
 // for accepting a transaction in the DAG.

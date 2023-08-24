@@ -9,7 +9,7 @@ import (
 	"os"
 	"path"
 
-	"github.com/kaspanet/kasparov/apimodels"
+	"github.com/c4ei/c4exapi/apimodels"
 	"github.com/pkg/errors"
 )
 

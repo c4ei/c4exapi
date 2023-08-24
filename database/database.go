@@ -3,12 +3,13 @@ package database
 import (
 	nativeerrors "errors"
 	"fmt"
-	"github.com/go-pg/pg/v9"
-	"github.com/golang-migrate/migrate/v4/source"
-	"github.com/kaspanet/kasparov/config"
-	"github.com/pkg/errors"
 	"os"
 	"strings"
+
+	"github.com/c4ei/c4exapi/config"
+	"github.com/go-pg/pg/v9"
+	"github.com/golang-migrate/migrate/v4/source"
+	"github.com/pkg/errors"
 
 	"github.com/golang-migrate/migrate/v4"
 )

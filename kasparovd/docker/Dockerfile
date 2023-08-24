@@ -17,7 +17,8 @@ RUN go mod edit -dropreplace github.com/c4ei/c4exd
 ARG KASPAD_VERSION
 RUN if [ -n "${KASPAD_VERSION}" ]; then \
         # use replace instead of require - to propagate into nested dependancies
-        go mod edit -replace github.com/c4ei/c4exd=github.com/c4ei/c4exd@$KASPAD_VERSION ;\
+        # go mod edit -replace github.com/c4ei/c4exd=github.com/c4ei/c4exd@$KASPAD_VERSION ;\
+        go mod edit -replace github.com/c4ei/c4exd=github.com/c4ei/c4exd ;\
     fi
 RUN cp go.mod go.mod.bu
 

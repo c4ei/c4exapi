@@ -12,6 +12,7 @@ require (
 	github.com/kaspanet/go-secp256k1 v0.0.2
 	github.com/c4ei/c4exd v0.6.2
 	github.com/pkg/errors v0.9.1
+	github.com/btcsuite/btcutil v1.0.2
 )
 
-replace github.com/c4ei/c4exd => ../kaspad
+replace github.com/c4ei/c4exd => ../c4exd

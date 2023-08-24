@@ -5,7 +5,7 @@ Warning: This is pre-alpha software. There's no guarantee anything works.
 ====
 
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](https://choosealicense.com/licenses/isc/)
-[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/kaspanet/kasparov)
+[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/c4ei/c4exapi)
 
 Kasparov is an API server for Kaspa written in Go (golang).
 
@@ -43,8 +43,8 @@ recommended that `GOPATH` is set to a directory in your home directory such as
 - Run the following commands to obtain and install kasparovd, kasparovsyncd, and the wallet including all dependencies:
 
 ```bash
-$ git clone https://github.com/kaspanet/kasparov $GOPATH/src/github.com/kaspanet/kasparov
-$ cd $GOPATH/src/github.com/kaspanet/kasparov
+$ git clone https://github.com/c4ei/c4exapi $GOPATH/src/github.com/c4ei/c4exapi
+$ cd $GOPATH/src/github.com/c4ei/c4exapi
 $ go install ./...
 ```
 
@@ -56,7 +56,7 @@ $ go install ./...
 ## Getting Started
 
 Kasparov expects to have access to the following systems:
-- A Kaspa RPC server (usually [kaspad](https://github.com/kaspanet/kaspad) with RPC turned on)
+- A Kaspa RPC server (usually [kaspad](https://github.com/c4ei/c4exd) with RPC turned on)
 - A MySQL database
 - An optional MQTT broker
 
